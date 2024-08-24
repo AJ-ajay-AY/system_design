@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SCZvKBO57X7So9eVnbbf-1" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;ModelNexus - Platform&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="690" y="-340" width="320" height="140" as="geometry" />
+          <mxGeometry x="850" y="-260" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SCZvKBO57X7So9eVnbbf-6" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Nexus Core&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FF9999;strokeColor=#b85450;swimlaneFillColor=#FFE9E0;" parent="1" vertex="1">
           <mxGeometry x="1100" y="490" width="480" height="290" as="geometry" />
@@ -52,23 +52,25 @@
         <mxCell id="5m-fN42RZaUffiaMogSR-8" value="&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/rule/get&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/rule/add&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/rule/remove&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/rule/update&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/system/&amp;lt;metrics&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/system/volume/&amp;lt;presets&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/system/volume/today/all&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;system/volume/today/success&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/inbound/getConf&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/admin/addNamespace&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/admin/&amp;lt;controls&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;/admin/dataStoreRetention&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;namespace/modelAdd&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;namespace/modelUpdate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;namespace/modelGet&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SCZvKBO57X7So9eVnbbf-42">
           <mxGeometry x="75" y="150" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="SCZvKBO57X7So9eVnbbf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="SCZvKBO57X7So9eVnbbf-47" target="SCZvKBO57X7So9eVnbbf-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SCZvKBO57X7So9eVnbbf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="SCZvKBO57X7So9eVnbbf-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="655" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SCZvKBO57X7So9eVnbbf-47" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Nexus Inbound&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FF9933;strokeColor=#FFCC99;swimlaneFillColor=#FFE6CC;" parent="1" vertex="1">
-          <mxGeometry x="665" y="490" width="290" height="290" as="geometry" />
+          <mxGeometry x="600" y="490" width="355" height="330" as="geometry" />
         </mxCell>
         <mxCell id="SCZvKBO57X7So9eVnbbf-48" value="API" style="rounded=1;whiteSpace=wrap;html=1;" parent="SCZvKBO57X7So9eVnbbf-47" vertex="1">
-          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SCZvKBO57X7So9eVnbbf-49" value="Message Queue" style="rounded=1;whiteSpace=wrap;html=1;" parent="SCZvKBO57X7So9eVnbbf-47" vertex="1">
-          <mxGeometry x="20" y="124.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SCZvKBO57X7So9eVnbbf-50" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;" parent="SCZvKBO57X7So9eVnbbf-47" vertex="1">
-          <mxGeometry x="20" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SCZvKBO57X7So9eVnbbf-56" value="Validator" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;" parent="SCZvKBO57X7So9eVnbbf-47" vertex="1">
-          <mxGeometry x="170" y="34.5" width="90" height="240" as="geometry" />
+          <mxGeometry x="180" y="40" width="140" height="275.5" as="geometry" />
         </mxCell>
         <mxCell id="SCZvKBO57X7So9eVnbbf-52" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Nexus Data store&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFE9E0;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1350" y="120" width="150" height="180" as="geometry" />
@@ -99,9 +101,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5m-fN42RZaUffiaMogSR-3" value="Data Stream / Event Stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5m-fN42RZaUffiaMogSR-2">
+        <mxCell id="5m-fN42RZaUffiaMogSR-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Data Stream /&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Event Stream&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5m-fN42RZaUffiaMogSR-2">
           <mxGeometry x="-0.6159" y="1" relative="1" as="geometry">
-            <mxPoint x="57" y="-49" as="offset" />
+            <mxPoint x="31" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5m-fN42RZaUffiaMogSR-5" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="SCZvKBO57X7So9eVnbbf-66">
@@ -128,7 +130,7 @@
           <mxGeometry x="1790" y="720" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5m-fN42RZaUffiaMogSR-10" value="User Interface" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#F4FFF0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="15" width="440" height="570" as="geometry" />
+          <mxGeometry x="30" y="-30" width="450" height="615" as="geometry" />
         </mxCell>
         <mxCell id="5m-fN42RZaUffiaMogSR-14" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="5m-fN42RZaUffiaMogSR-10">
           <mxGeometry x="50" y="80" width="120" height="90" as="geometry" />
@@ -156,12 +158,12 @@
         </mxCell>
         <mxCell id="5m-fN42RZaUffiaMogSR-30" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="470" y="290" as="sourcePoint" />
-            <mxPoint x="590" y="290" as="targetPoint" />
+            <mxPoint x="480" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5m-fN42RZaUffiaMogSR-32" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;u&gt;Non Functional&lt;/u&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- Support upto 500 req/s assuming model latency is below 500 ms else limited by model&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- system req processing sub 5 ms&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- system visualisation detail 1s&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- system visualisation refresh 5s&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- Multi tenant - multi name space&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- Exp Data 100 gb , archiving limit 3 months&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- Archiving conf to s3&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;- ACL&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="-70" width="460" height="80" as="geometry" />
+        <mxCell id="5m-fN42RZaUffiaMogSR-32" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;u&gt;&lt;b&gt;Non Functional&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- Support upto 500 req/s assuming model latency is below 500 ms else limited by model&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- system req processing sub 5 ms&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- system visualisation detail 1s&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- system visualisation refresh 5s&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- Multi tenant - multi name space&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- Exp Data 100 gb , archiving limit 3 months&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- Archiving conf to s3&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- ACL&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="-420" width="530" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
